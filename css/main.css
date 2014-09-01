@@ -1,4 +1,16 @@
+body {
+	background-color:#7FFFD4;
+}
+
 ol {
 	list-style-type: circle;
+}
+
+.heading {
+	border:2px solid #FF4500;
+	border-radius: 5px;
+	position:relative;
+	top:25px;
+	left:100px;
 }
 
