@@ -24,5 +24,18 @@ ol {
 }
 
 .head-text {
-	font-family: "berlin-sans";
+	font-family: "gisha","calibri",sans-serif;
+	color: green;
+	font-weight: bolder;
+	font-size: 30px;
+	left: 42%;
+	top: 9px;
+	position: relative;
+}
+
+.shop-image>img {
+	display:block;
+	position: relative;
+	width:40%;
+	left:10px;
 }
