@@ -1,5 +1,5 @@
 body {
-	background-color:#7FFFD4;
+	background-color:#FF7F50;
 }
 
 header {
@@ -13,7 +13,7 @@ ol {
 }
 
 .heading {
-	border: 2px solid #FF4500;
+	border: 2px solid #008080;
 	border-radius: 5px;
 	position: relative;
 	top: 25px;
@@ -25,7 +25,7 @@ ol {
 
 .head-text {
 	font-family: "gisha","calibri",sans-serif;
-	color: #0000CD;
+	color: #191970;
 	font-weight: bolder;
 	font-size: 30px;
 	left: 42%;
@@ -38,4 +38,6 @@ ol {
 	position: relative;
 	width:40%;
 	left:10px;
+	border:2px solid #008080;
 }
+
