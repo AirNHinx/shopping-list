@@ -9,7 +9,9 @@ header {
 }
 
 ol {
-	list-style-type: circle;
+	list-style-type: decimal;
+	margin: 30px 0 10px 45px;
+	position: relative;
 }
 
 .heading {
@@ -38,11 +40,13 @@ ol {
 	position: relative;
 	width: 86%;
 	border: 2px solid #008080;
+	border-radius: 5px;
 	margin-left: 58px;
 }
 
 .add-items {
 	border: 2px solid #008080;
+	border-radius: 5px;
 	width: 86%;
 	position: relative;
 	margin: 10px 0 30px 58px;
@@ -53,4 +57,19 @@ ol {
 .left-side {
 	position: relative;
 	width: 50%;
+}
+
+.right-side {
+	position: absolute;
+	display: inline;
+	top: 110px;
+	width: 47%;
+	height: 779px;
+	border: 2px solid #008080;
+	border-radius: 5px;
+}
+
+li {
+	font-family: "gisha","calibri",sans-serif;
+	color: #191970;
 }
