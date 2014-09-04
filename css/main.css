@@ -15,10 +15,10 @@ ol {
 .heading {
 	border: 2px solid #008080;
 	border-radius: 5px;
-	position: relative;
+	position: absolute;
 	top: 25px;
-	left: 12%;
-	width: 75%;
+	left: 32%;
+	width: 36%;
 	height: 50px;
 	background-color: #E0FFFF;
 }
@@ -28,16 +28,29 @@ ol {
 	color: #191970;
 	font-weight: bolder;
 	font-size: 30px;
-	left: 42%;
+	left: 33%;
 	top: 9px;
-	position: relative;
+	position: absolute;
 }
 
 .shop-image>img {
-	display:block;
+	display: block;
 	position: relative;
-	width:40%;
-	left:10px;
-	border:2px solid #008080;
+	width: 86%;
+	border: 2px solid #008080;
+	margin-left: 58px;
 }
 
+.add-items {
+	border: 2px solid #008080;
+	width: 86%;
+	position: relative;
+	margin: 10px 0 30px 58px;
+	height: 200px;
+	display: block;
+}
+
+.left-side {
+	position: relative;
+	width: 50%;
+}
