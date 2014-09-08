@@ -143,3 +143,9 @@ height: auto;
 	background-image: url(images/x.png);
 	margin: -22px 0 0 800px;
 }
+
+.item-buttons {
+	position: relative;
+	height: 18px;
+	width: 18px;
+}
