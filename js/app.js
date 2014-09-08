@@ -1,6 +1,7 @@
 $(document).ready(function() {
-	$(".add-textbox").on("click",function (){
+	$(".button-text").on("click",function (){
 	var item = $(".add-textbox").val();
 	console.log(item)	
 	}
+
 })
