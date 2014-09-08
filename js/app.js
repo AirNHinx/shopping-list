@@ -7,6 +7,6 @@ $(document).ready(function() {
 	if (event.which == 13) {
 	var item = $(".add-textbox").val();
 	console.log(item)			
-	}); 	
+	} 	
 });
-})
+});
