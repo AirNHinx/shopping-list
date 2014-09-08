@@ -56,14 +56,14 @@ ol {
 
 .left-side {
 	position: relative;
-	width: 50%;
+	min-width: 50%;
+	display:inline-block;
 }
 
 .right-side {
 	position: absolute;
 	display: inline;
-	top: 110px;
-	width: 47%;
+	min-width: 47%;
 	height: 779px;
 	border: 2px solid #008080;
 	border-radius: 5px;
