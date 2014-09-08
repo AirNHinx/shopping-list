@@ -83,7 +83,7 @@ li {
 	background-color: white;
 	border-radius: 5px;
 	color: gray;
-	height: 30px;
+	height: 32px;
 	width: 510px;
 	top: 40px;
 	left: 150px;
@@ -91,5 +91,25 @@ li {
 
 .sample-text {
 	font-family: "gisha","calibri",sans-serif;
-	font-size: 28px
+	font-size: 28px;
+	position: absolute;
+	top: 2px;
+	left: 10px;
+}
+
+.add-button {
+position: absolute;
+height: 80px;
+width: 300px;
+border: 2px solid #008080;
+top: 96px;
+left: 250px;
+color: #FF7F50;
+background-color: #191970;
+}
+
+.button-text {
+	font-family: "gisha","calibri",sans-serif;
+	font-size: 28px;
+	position: absolute;
 }
