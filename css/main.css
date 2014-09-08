@@ -91,6 +91,8 @@ li {
 	width: 510px;
 	top: 40px;
 	left: 150px;
+	font-family: "gisha","calibri",sans-serif;
+	font-size: 28px;
 }
 
 .sample-text {
@@ -101,7 +103,10 @@ li {
 	left: 10px;
 }
 
-.add-button {
+.button-text {
+	font-family: "gisha","calibri",sans-serif;
+	font-size: 28px;
+	font-weight: bold;
 	position: absolute;
 	height: 80px;
 	width: 300px;
@@ -111,15 +116,6 @@ li {
 	left: 250px;
 	color: #FF7F50;
 	background-color: #191970;
-}
-
-.button-text {
-	font-family: "gisha","calibri",sans-serif;
-	font-size: 28px;
-	position: absolute;
-	top: 28px;
-	left: 50px;
-	font-weight: bold;
 }
 
 .check-button {
