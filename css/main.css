@@ -46,6 +46,7 @@ ol {
 
 .add-items {
 	border: 2px solid #008080;
+	background-color: #E0FFFF;
 	border-radius: 5px;
 	width: 86%;
 	position: relative;
@@ -66,10 +67,15 @@ ol {
 	min-width: 47%;
 	height: 779px;
 	border: 2px solid #008080;
+	background-color: #E0FFFF;
 	border-radius: 5px;
 }
 
 li {
 	font-family: "gisha","calibri",sans-serif;
 	color: #191970;
+}
+
+footer {
+	height:100px;
 }
