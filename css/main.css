@@ -83,19 +83,16 @@ li {
 .add-textbox {
 	display: inline-block;
 	position: absolute;
-	height: 32px;
-	width: 510px;
-	top: 40px;
-	left: 150px;
-}
-
-#add-text {
-	font-family: "gisha","calibri",sans-serif;
-	font-size: 28px;
 	border: 2px solid #008080;
 	background-color: white;
 	border-radius: 5px;
 	color: gray;
+	height: 32px;
+	width: 510px;
+	top: 40px;
+	left: 150px;
+	font-family: "gisha","calibri",sans-serif;
+	font-size: 28px;
 }
 
 .sample-text {
