@@ -81,9 +81,15 @@ li {
 	position: absolute;
 	border: 2px solid #008080;
 	background-color: white;
+	border-radius: 5px;
 	color: gray;
 	height: 30px;
 	width: 510px;
 	top: 40px;
 	left: 150px;
+}
+
+.sample-text {
+	font-family: "gisha","calibri",sans-serif;
+	font-size: 28px
 }
