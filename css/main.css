@@ -105,6 +105,7 @@ li {
 	height: 80px;
 	width: 300px;
 	border: 2px solid #008080;
+	border-radius: 5px;
 	top: 96px;
 	left: 250px;
 	color: #FF7F50;
