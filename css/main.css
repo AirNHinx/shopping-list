@@ -32,8 +32,8 @@ ol {
 	color: #191970;
 	font-weight: bolder;
 	font-size: 30px;
-	left:29%;
-	top: 9px;
+	left: 16%;
+	top: 17px;
 	position: absolute;
 	min-width: 100px;
 	min-height: 20px;
@@ -52,9 +52,11 @@ ol {
 	border: 2px solid #FF7F50;
 	background-color: #E0FFFF;
 	border-radius: 5px;
-	width: 86%;
+	width: 48%;
 	position: relative;
-	margin: 0 0 28px 58px;
+	/* margin: 0 0 28px 64px; */
+	left: 28%;
+	margin-bottom: 20px;
 	height: 200px;
 	display: block;
 }
@@ -94,7 +96,7 @@ li {
 	height: 32px;
 	width: 510px;
 	top: 40px;
-	left: 34%;
+	left: 17%;
 	font-family: "gisha","calibri",sans-serif;
 	font-size: 28px;
 }
@@ -109,15 +111,15 @@ li {
 
 .button-text {
 	font-family: "gisha","calibri",sans-serif;
-	font-size: 28px;
+	font-size: 25px;
 	font-weight: bold;
 	position: absolute;
-	height: 80px;
-	width: 300px;
+	min-height: 62px;
+	min-width: 330px;
 	border: 2px solid #FF7F50;
 	border-radius: 5px;
 	top: 96px;
-	left: 42%;
+	left: 30%;
 	color: #FF7F50;
 	background-color: #191970;
 }
