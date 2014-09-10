@@ -1,6 +1,7 @@
 body {
 	background-color:#FF7F50;
 	background-image: url("../images/grocery-store.jpg");
+	background-repeat: no-repeat;
 
 }
 
