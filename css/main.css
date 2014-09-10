@@ -1,5 +1,4 @@
 body {
-	background-color:#FF7F50;
 	background-image: url("../images/aisle.jpg");
 	/*background-repeat: no-repeat;*/
 
@@ -21,10 +20,10 @@ ol {
 	border: 2px solid #FF7F50;
 	border-radius: 5px;
 	position: absolute;
-	top: 25px;
-	left: 32%;
-	min-width: 36%;
-	height: 50px;
+	top: 12px;
+	left: 42%;
+	min-width: 20%;
+	height: 70px;
 	background-color: #E0FFFF;
 }
 
@@ -33,10 +32,11 @@ ol {
 	color: #191970;
 	font-weight: bolder;
 	font-size: 30px;
-	left: 33%;
+	left:29%;
 	top: 9px;
 	position: absolute;
-	min-width: 220px;
+	min-width: 100px;
+	min-height: 20px;
 }
 
 .shop-image>img {
@@ -59,17 +59,18 @@ ol {
 	display: block;
 }
 
-.left-side {
+.upper-page {
 	position: relative;
 	min-width: 50%;
-	display:inline-block;
+	/* display: inline-block; */
+	margin: auto;
 }
 
-.right-side {
-	position: absolute;
-	display: inline;
-	min-width: 47%;
-	height: 780px;
+.lower-page {
+	position: relative;
+	/* display: inline; */
+	min-width: 50%;
+	/* height: 780px; */
 	border: 2px solid #FF7F50;
 	background-color: #E0FFFF;
 	border-radius: 5px;
@@ -93,7 +94,7 @@ li {
 	height: 32px;
 	width: 510px;
 	top: 40px;
-	left: 150px;
+	left: 34%;
 	font-family: "gisha","calibri",sans-serif;
 	font-size: 28px;
 }
@@ -116,7 +117,7 @@ li {
 	border: 2px solid #FF7F50;
 	border-radius: 5px;
 	top: 96px;
-	left: 250px;
+	left: 42%;
 	color: #FF7F50;
 	background-color: #191970;
 }
