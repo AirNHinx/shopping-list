@@ -31,11 +31,11 @@ ol {
 	font-family: "gisha","calibri",sans-serif;
 	color: #191970;
 	font-weight: bolder;
-	font-size: 30px;
-	left: 16%;
+	font-size: 170%;
+	left: 14%;
 	top: 17px;
 	position: absolute;
-	min-width: 100px;
+	/* min-width: 30%; */
 	min-height: 20px;
 }
 
@@ -69,13 +69,14 @@ ol {
 }
 
 .lower-page {
-	position: relative;
+	position: absolute;
 	/* display: inline; */
-	min-width: 50%;
+	min-width: 92%;
 	/* height: 780px; */
 	border: 2px solid #FF7F50;
 	background-color: #E0FFFF;
 	border-radius: 5px;
+	left: 4%;
 }
 
 li {
@@ -94,7 +95,7 @@ li {
 	border-radius: 5px;
 	color: gray;
 	height: 32px;
-	width: 510px;
+	min-width: 70%;
 	top: 40px;
 	left: 17%;
 	font-family: "gisha","calibri",sans-serif;
@@ -115,7 +116,7 @@ li {
 	font-weight: bold;
 	position: absolute;
 	min-height: 62px;
-	min-width: 330px;
+	min-width: 40%;
 	border: 2px solid #FF7F50;
 	border-radius: 5px;
 	top: 96px;
