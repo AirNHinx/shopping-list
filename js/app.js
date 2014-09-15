@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$(".lower-page").hide();
 	$("li").hide();
 	$(".check-button").hide();
 	$(".delete-button").hide();
@@ -11,6 +12,7 @@ $(document).ready(function() {
 	function additem() {
 	var item = $(".add-textbox").val();
 	console.log(item);
+	$(".lower-page").show();
 	$("li").show();	
 	$("li").append(item);
 	$(".check-button").show();
