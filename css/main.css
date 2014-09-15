@@ -153,10 +153,6 @@ height: auto;
 	background-color: white;
 }
 
-#item-buttons {
-	position: relative;
-	height: 18px;
-	width: 18px;
-	top: 1px;
-	left: 1px;
+img.item-buttons {
+  width: 20px;
 }
