@@ -27,7 +27,6 @@ $(document).ready(function() {
 	//$(".check-button").show();
 	//$(".delete-button").show();
 	}
-	console.log(item);
 });
 
 
