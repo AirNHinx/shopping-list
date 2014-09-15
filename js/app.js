@@ -20,6 +20,13 @@ $(document).ready(function() {
    $("ol.items").on("click", function(event) {
    var t = $(event.target);
    console.log(t);
+   console.log(t.hasClass("action-complete"));
+   if(t.hasClass("action-complete")) {
+   		console.log("action-complete");
+
+   } else if(t.hasClass("action-delete")) {
+   		console.log("action-delete");
+   }
 });
 
 
