@@ -24,9 +24,9 @@ $(document).ready(function() {
    if(t.hasClass("action-complete")) {
    		console.log("action-complete");
    	$("li").addClass("strikethrough");	
-		 /*add a class to the containing li that shows a complete state*/
    } else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
+   		$("li").remove();
    		/*remove the li from the DOM (.remove)*/
    		/*use .parents to find the nearest li so we can act on them*/
    }
