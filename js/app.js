@@ -7,9 +7,9 @@ $(document).ready(function() {
 });
 	function additem() {
 	var item = $(".add-textbox").val();
-	console.log(item)	
+	console.log(item)
 }
-
+	item.appendTo($("li"));
 
 });
 
