@@ -148,12 +148,12 @@ height: auto;
 	width: 20px;
 	border: 2px solid #191970;
 	border-radius: 5px;
-	background-image: url(images/x.png);
+	background-image: url(".../images/x.png");
 	margin: -22px 0 0 90%;
 	background-color: white;
 }
 
-.item-buttons {
+#item-buttons {
 	position: relative;
 	height: 18px;
 	width: 18px;
