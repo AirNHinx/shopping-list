@@ -19,6 +19,7 @@ $(document).ready(function() {
 	$("ol").append(clone1+item+clone2);
 	//$(".check-button").show();
 	//$(".delete-button").show();
+	$(".add-textbox").val("");
 }
 	function addanother() {
 	var item = $(".add-textbox").val();
