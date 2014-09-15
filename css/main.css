@@ -23,7 +23,7 @@ ol {
 	top: 12px;
 	left: 42%;
 	min-width: 20%;
-	height: 70px;
+	min-height: 60%;
 	background-color: #E0FFFF;
 }
 
@@ -32,11 +32,11 @@ ol {
 	color: #191970;
 	font-weight: bolder;
 	font-size: 150%;
-	left: 24%;
-	top: 17px;
+	left: 18%;
+	top: 28%;
 	position: absolute;
-	min-width: 30%;
-	min-height: 20px;
+	/* min-width: 24%; */
+	/* min-height: 20px; */
 	text-align: center;
 }
 
@@ -113,7 +113,7 @@ li {
 
 .button-text {
 	font-family: "gisha","calibri",sans-serif;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bold;
 	position: absolute;
 	min-height: 62px;
