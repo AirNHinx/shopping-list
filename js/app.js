@@ -25,8 +25,7 @@ $(document).ready(function() {
 	var item = $(".add-textbox").val();
 	console.log(item);
 	$("li").append("<li>"+ item + "</li>");
-	//$(".check-button").show();
-	//$(".delete-button").show();
+
 	}
 });
 
