@@ -16,7 +16,7 @@ $(document).ready(function() {
 	console.log(item);
 	//$(".lower-page").show();
 	//$("li").show();	
-	$("ol").append(clone1, item, clone2);
+	$("ol").append(clone1+item+clone2);
 	//$(".check-button").show();
 	//$(".delete-button").show();
 }
