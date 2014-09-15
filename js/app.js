@@ -18,8 +18,8 @@ $(document).ready(function() {
 	$(".add-textbox").val("");
 }
    $("ol.items").on("click", function(event) {
-   var t = event.target
-
+   var t = $(event.target);
+   console.log(t);
 });
 
 
