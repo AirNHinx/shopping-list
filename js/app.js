@@ -8,7 +8,6 @@ $(document).ready(function() {
 	if (event.which == 13) {
 		additem()	
 }
-});
 	function additem() {
 	var item = $(".add-textbox").val();
 	console.log(item);
@@ -23,6 +22,8 @@ $(document).ready(function() {
 		item($(".add-textbox").find("input").val());
 		$("li").append("<li>"+ item + "</li>");
 	}
+
+});
 
 });
 
