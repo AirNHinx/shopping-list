@@ -6,7 +6,7 @@ $(document).ready(function() {
 	$(".button-text").on("click", additem);
 	$(".add-textbox").on("keypress",function(event){
 	if (event.which == 13) {
-		additem()
+		additem()	
 }
 });
 	function additem() {
@@ -17,6 +17,7 @@ $(document).ready(function() {
 	$("li").append(item);
 	$(".check-button").show();
 	$(".delete-button").show();
+	$("add-textbox").hide();
 }
 
 });
