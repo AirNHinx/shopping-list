@@ -19,10 +19,10 @@ $(document).ready(function() {
 	$(".delete-button").show();
 	$("add-textbox").hide();
 }
-
-});
 	function addanother() {
 		item($(".add-textbox").find("input").val());
 		$("li").append("<li>"+ item + "</li>");
 	}
+
+});
 
