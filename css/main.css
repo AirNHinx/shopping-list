@@ -23,7 +23,7 @@ ol {
 	top: 12px;
 	left: 42%;
 	min-width: 20%;
-	min-height: 60%;
+	min-height: 72%;
 	background-color: #E0FFFF;
 }
 
@@ -32,12 +32,13 @@ ol {
 	color: #191970;
 	font-weight: bolder;
 	font-size: 150%;
-	left: 18%;
-	top: 28%;
+	/* left: 18%; */
+	top: 20%;
 	position: absolute;
 	/* min-width: 24%; */
 	/* min-height: 20px; */
 	text-align: center;
+	padding: 0 19% 0% 26%;
 }
 
 .shop-image>img {
