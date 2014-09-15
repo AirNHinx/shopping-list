@@ -156,3 +156,7 @@ height: auto;
 img.item-buttons {
   width: 20px;
 }
+
+.strikethrough {
+	text-decoration: line-through;
+}
