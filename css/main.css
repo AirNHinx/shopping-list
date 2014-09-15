@@ -31,12 +31,13 @@ ol {
 	font-family: "gisha","calibri",sans-serif;
 	color: #191970;
 	font-weight: bolder;
-	font-size: 170%;
+	font-size: 150%;
 	left: 24%;
 	top: 17px;
 	position: absolute;
-	/* min-width: 30%; */
+	min-width: 30%;
 	min-height: 20px;
+	text-align: center;
 }
 
 .shop-image>img {

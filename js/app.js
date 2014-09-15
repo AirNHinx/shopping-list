@@ -9,6 +9,8 @@ $(document).ready(function() {
 	var item = $(".add-textbox").val();
 	console.log(item)	
 }
+
+
 });
 
 
