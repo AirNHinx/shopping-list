@@ -12,14 +12,7 @@ $(document).ready(function() {
 	function additem() {
 	var item = $(".add-textbox").val();
 	var clone1 = '<li>';
-	var clone2 = '<div class="check-button" style="display: none;">
-							<a href="#">
-								<img class="item-buttons" src="images/blue-check.png">
-							</a>
-						</div>
-						<div class="delete-button" id=" item-buttons""="" style="display: none;">
-						</div>
-					</li>';
+	var clone2 = '<div class="check-button" style="display: none;"><a href="#"><img class="item-buttons" src="images/blue-check.png"></a></div><div class="delete-button" id=" item-buttons""="" style="display: none;"></div></li>';
 	console.log(item);
 	//$(".lower-page").show();
 	//$("li").show();	
@@ -34,7 +27,7 @@ $(document).ready(function() {
 	//$(".check-button").show();
 	//$(".delete-button").show();
 	}
-
+	console.log(item);
 });
 
 
