@@ -20,5 +20,8 @@ $(document).ready(function() {
 }
 
 });
-
+	function addanother() {
+		item($(".add-textbox").find("input").val());
+		$("li").append("<li>"+ item + "</li>");
+	}
 
