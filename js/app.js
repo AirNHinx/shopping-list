@@ -4,7 +4,8 @@ $(document).ready(function() {
 	$(".button-text").on("click", additem);
 	$(".add-textbox").on("keypress",function(event){
 	if (event.which == 13) {
-		additem()	
+		additem()
+		$(".lower-page").show();	
 }
 });
 	function additem() {
