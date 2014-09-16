@@ -29,7 +29,7 @@ $(document).ready(function() {
    		console.log("action-delete");
    		/*$(".action-delete").parents().remove();
    		$(".lower-page").hide();*/
-   		console.log("action-complete").parents();	
+   		console.log(t).parents("action-complete");	
    		/*remove the li from the DOM (.remove)*/
    		/*use .parents to find the nearest li so we can act on them*/
 
