@@ -24,7 +24,7 @@ $(document).ready(function() {
    console.log(t.hasClass("action-complete"));
    if(t.hasClass("action-complete")) {
    		console.log("action-complete");
-   	$(".action-complete").parents().addClass("strikethrough");	
+   	$("div.action-complete").parents().addClass("strikethrough");	
    } else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
    		/*$(".action-delete").parents().remove();
@@ -33,7 +33,7 @@ $(document).ready(function() {
    		/*use .parents to find the nearest li so we can act on them*/
    		  if(t.hasClass("strikethrough")) {
    		console.log("action-complete");
-   	$(".action-complete").parents().removeClass("strikethrough");	
+   	$("div.action-complete").parents().removeClass("strikethrough");	
    } 
    }
 });
