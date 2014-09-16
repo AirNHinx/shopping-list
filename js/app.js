@@ -26,11 +26,12 @@ $(document).ready(function() {
    	$("li").addClass("strikethrough");	
    } else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
-   		$(".action-delete").parents().remove();
-   		$(".lower-page").hide();
-
+   		/*$(".action-delete").parents().remove();
+   		$(".lower-page").hide();*/
+   		console.log("action-complete").parents();	
    		/*remove the li from the DOM (.remove)*/
    		/*use .parents to find the nearest li so we can act on them*/
+
    }
 });
 
