@@ -26,7 +26,7 @@ $(document).ready(function() {
    	$("li").addClass("strikethrough");	
    } else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
-   		$("li").remove();
+   		$("li").remove(this);
    		$(".lower-page").hide();
 
    		/*remove the li from the DOM (.remove)*/
