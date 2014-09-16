@@ -31,7 +31,9 @@ $(document).ready(function() {
    		$(".lower-page").hide();*/
    		/*remove the li from the DOM (.remove)*/
    		/*use .parents to find the nearest li so we can act on them*/
-
+   	if(t.hasClass("action-complete")) {
+   		console.log("action-complete");
+   	$(".action-complete").parents().removeClass("strikethrough");		
    }
 });
 
