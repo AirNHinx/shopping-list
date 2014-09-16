@@ -27,6 +27,8 @@ $(document).ready(function() {
    } else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
    		$("li").remove();
+   		$(".lower-page").hide();
+
    		/*remove the li from the DOM (.remove)*/
    		/*use .parents to find the nearest li so we can act on them*/
    }
