@@ -24,16 +24,17 @@ $(document).ready(function() {
    console.log(t.hasClass("action-complete"));
    if(t.hasClass("action-complete")) {
    		console.log("action-complete");
-   	$(".action-complete").parents().addClass("strikethrough");	
+   	$(".action-complete").parents.addClass("strikethrough");	
    } else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
    		/*$(".action-delete").parents().remove();
    		$(".lower-page").hide();*/
    		/*remove the li from the DOM (.remove)*/
    		/*use .parents to find the nearest li so we can act on them*/
-   	if(t.hasClass("action-complete")) {
+   		  if(t.hasClass("action-complete")) {
    		console.log("action-complete");
-   	$(".action-complete").parents().removeClass("strikethrough");		
+   	$(".action-complete").parents.removeClass("strikethrough");	
+   } 
    }
 });
 
