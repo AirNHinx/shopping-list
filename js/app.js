@@ -1,11 +1,11 @@
 $(document).ready(function() {
 	/*$(".lower-page").hide();*/
+	$(".button-text").on("click", additem);
 	$(".add-textbox").on("keypress",function(event){
 	if (event.which == 13) {
 		additem();		
 }
-});
-	$(".button-text").on("click", additem);
+});	
 
 	function additem() {
 	/*$(".lower-page").show();*/	
