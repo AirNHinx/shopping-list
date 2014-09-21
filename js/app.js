@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(".lower-page").hide();
+	/*$(".lower-page").hide();*/
 	$(".add-textbox").on("keypress",function(event){
 	if (event.which == 13) {
 		additem();		
@@ -8,7 +8,7 @@ $(document).ready(function() {
 	$(".button-text").on("click", additem);
 
 	function additem() {
-	$(".lower-page").show();	
+	/*$(".lower-page").show();*/	
 	var item = $(".add-textbox").val();
 	var clone1 = '<li>';
 	var clone2 = '<div class="check-button action-complete"><a href="#">';
