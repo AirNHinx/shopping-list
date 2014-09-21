@@ -1,10 +1,11 @@
 $(document).ready(function() {
+	var listbox = $(".lower-page").show();
 	$(".lower-page").hide();
 	$("li").hide();
-	$(".button-text").on("click", additem);
+	$(".button-text").on("click", listbox, additem);
 	$(".add-textbox").on("keypress",function(event){
 	if (event.which == 13) {
-		$(".lower-page").show();
+		$(listbox);
 		additem();		
 }
 });
