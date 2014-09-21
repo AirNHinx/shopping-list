@@ -1,6 +1,5 @@
 $(document).ready(function() {
 	$(".lower-page").hide();
-	$("li").hide();
 
 	function additem() {
 	var item = $(".add-textbox").val();
@@ -11,7 +10,6 @@ $(document).ready(function() {
 	console.log(item);
 	$("ol").append(clone1+item+clone2+clone3+clone4);
 	$(".lower-page").show();
-	$("li").show();	
 	$(".add-textbox").val("");
 }
 	$(".add-textbox").on("keypress",function(event){
