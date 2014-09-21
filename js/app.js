@@ -26,8 +26,8 @@ $(document).ready(function() {
    console.log(t.hasClass("action-complete"));
    if(t.hasClass("action-complete")) {
    		console.log("action-complete");
-   		console.log("this");
-   	$(this).closest("li").toggleClass("strikethrough");	
+   		console.log;
+   	$(this).closest("add-textbox").toggleClass("strikethrough");	
    } else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
    		/*$(".action-delete").parents().remove();
