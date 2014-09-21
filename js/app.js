@@ -1,5 +1,20 @@
 $(document).ready(function() {
 	/*$(".lower-page").hide();*/
+
+   $("ol.items").on("click", function(event) {
+   var t = $(event.target);
+   console.log(t);
+   console.log(t.hasClass("action-complete"));
+   if(t.hasClass("action-complete")) {
+   		console.log("action-complete");
+   		/*console.log(this);*/
+   	$(t).closest("li").toggleClass("strikethrough");	
+   } else if(t.hasClass("action-delete")) {
+   		console.log("action-delete");
+   		$(t).closest("li").remove();
+   }
+});
+
 	$(".button-text").on("click", additem);
 	$(".add-textbox").on("keypress", function(event){
 	if ( event.which == 13 ) {
@@ -18,21 +33,6 @@ $(document).ready(function() {
 	$("ol").append(clone1+item+clone2+clone3+clone4);
 	$(".add-textbox").val("");
 }
-
-   $("ol.items").on("click", function(event) {
-   var t = $(event.target);
-   console.log(t);
-   console.log(t.hasClass("action-complete"));
-   if(t.hasClass("action-complete")) {
-   		console.log("action-complete");
-   		/*console.log(this);*/
-   	$(t).closest("li").toggleClass("strikethrough");	
-   } else if(t.hasClass("action-delete")) {
-   		console.log("action-delete");
-   		$(t).closest("li").remove();
-   }
-});
-
 
 });
 
