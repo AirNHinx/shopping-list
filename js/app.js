@@ -26,7 +26,7 @@ $(document).ready(function() {
    console.log(t.hasClass("action-complete"));
    if(t.hasClass("action-complete")) {
    		console.log("action-complete");
-   	$(this).parent(t).toggleClass("strikethrough");	
+   	$(this).before(t).toggleClass("strikethrough");	
    } else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
    		/*$(".action-delete").parents().remove();
