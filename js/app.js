@@ -1,13 +1,7 @@
 $(document).ready(function() {
 	$(".lower-page").hide();
 	$("li").hide();
-	$(".button-text").on("click", additem);
-	$(".add-textbox").on("keypress",function(event){
-	if (event.which == 13) {
-		$(".lower-page").show();
-		additem();		
-}
-});
+
 	function additem() {
 	var item = $(".add-textbox").val();
 	var clone1 = '<li>';
@@ -20,6 +14,14 @@ $(document).ready(function() {
 	$("ol").append(clone1+item+clone2+clone3+clone4);
 	$(".add-textbox").val("");
 }
+
+	$(".button-text").on("click", additem);
+	$(".add-textbox").on("keypress",function(event){
+	if (event.which == 13) {
+		additem();		
+}
+});
+
    $("ol.items").on("click", function(event) {
    var t = $(event.target);
    console.log(t);
