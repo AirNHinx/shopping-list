@@ -4,8 +4,8 @@ $(document).ready(function() {
 	$(".button-text").on("click", additem);
 	$(".add-textbox").on("keypress",function(event){
 	if (event.which == 13) {
-		additem()
-		$(".lower-page").show();	
+		$(".lower-page").show();
+		additem();		
 }
 });
 	function additem() {
@@ -26,7 +26,7 @@ $(document).ready(function() {
    console.log(t.hasClass("action-complete"));
    if(t.hasClass("action-complete")) {
    		console.log("action-complete");
-   	$(this).parents().toggleClass("strikethrough");	
+   	$(this).parent(t).toggleClass("strikethrough");	
    } else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
    		/*$(".action-delete").parents().remove();
