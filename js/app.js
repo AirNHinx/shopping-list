@@ -12,7 +12,7 @@ $(document).ready(function() {
 	$(".lower-page").show();
 	$("li").show();	
 	$("ol").append(clone1+item+clone2+clone3+clone4);
-	$(".add-textbox").val("");
+	/*$(".add-textbox").val("");*/
 }
 	$(".add-textbox").on("keypress",function(event){
 	if (event.which == 13) {
