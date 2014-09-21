@@ -1,12 +1,14 @@
 $(document).ready(function() {
 	$(".lower-page").hide();
 	$("li").hide();
-	$(".button-text").on("click", additem);
 	$(".add-textbox").on("keypress",function(event){
-	if (event.which == 13) {
+		if (event.which == 13) {
 		$(".lower-page").show();
-		additem();		
-}
+		additem();
+	}
+	$(".button-text").on("click", additem);
+		$(".lower-page").show();
+		additem();
 });
 	function additem() {
 	var item = $(".add-textbox").val();
@@ -26,7 +28,7 @@ $(document).ready(function() {
    console.log(t.hasClass("action-complete"));
    if(t.hasClass("action-complete")) {
    		console.log("action-complete");
-   	$(find).closest().parents().toggleClass("strikethrough");	
+   	$(this).parents().closest("li").toggleClass("strikethrough");	
    } else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
    		/*$(".action-delete").parents().remove();
