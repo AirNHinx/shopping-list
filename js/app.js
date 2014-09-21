@@ -1,14 +1,12 @@
 $(document).ready(function() {
 	$(".lower-page").hide();
 	$("li").hide();
-	$(".add-textbox").on("keypress",function(event){
-		if (event.which == 13) {
-		$(".lower-page").show();
-		additem();
-	}
 	$(".button-text").on("click", additem);
+	$(".add-textbox").on("keypress",function(event){
+	if (event.which == 13) {
 		$(".lower-page").show();
-		additem();
+		additem();		
+}
 });
 	function additem() {
 	var item = $(".add-textbox").val();
