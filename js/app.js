@@ -10,10 +10,10 @@ $(document).ready(function() {
 });
 	function additem() {
 	var item = $(".add-textbox").val();
-	var clone1 = $('<li>';
+	var clone1 = '<li>';
 	var clone2 = '<div class="check-button action-complete"><a href="#">';
 	var clone3 = '<img class="item-buttons action-complete" src="images/blue-check.png"/></a></div>';
-	var clone4 = '<div class="delete-button action-delete"><a href="#"><img class="item-buttons action-delete" src="images/x.png"/></a></div>');
+	var clone4 = '<div class="delete-button action-delete"><a href="#"><img class="item-buttons action-delete" src="images/x.png"/></a></div>';
 	console.log(item);
 	$(".lower-page").show();
 	$("li").show();	
