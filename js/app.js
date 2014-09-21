@@ -27,7 +27,7 @@ $(document).ready(function() {
    if(t.hasClass("action-complete")) {
    		console.log("action-complete");
    		console.log;
-   	$(this).closest("add-textbox").toggleClass("strikethrough");	
+   	$(this).closest("li").toggleClass("strikethrough");	
    } else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
    		/*$(".action-delete").parents().remove();
