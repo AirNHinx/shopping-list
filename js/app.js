@@ -14,7 +14,7 @@ $(document).ready(function() {
 	$("ol").append(clone1+item+clone2+clone3+clone4);
 	/*$(".add-textbox").val("");*/
 }
-	$(".add-textbox").on("keypress",function(event){
+	$(".add-textbox").on("keydown",function(event){
 	if (event.which == 13) {
 		additem();		
 }
