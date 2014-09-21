@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	/*$(".lower-page").hide();*/
 	$(".button-text").on("click", additem);
-	$(".add-textbox").on("keypress",function(event){
+	$(".add-textbox").on("keypress", function(event){
 	if ( event.which == 13 ) {
 		additem();		
 }
