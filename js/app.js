@@ -29,7 +29,7 @@ $(document).ready(function() {
    	$(t).closest("li").toggleClass("strikethrough");	
    } else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
-   		/*$(".action-delete").parents().remove();
+   		$(".action-delete").closest("li").remove();
    		/*remove the li from the DOM (.remove)*/
    		/*use .parents to find the nearest li so we can act on them*/
    }
