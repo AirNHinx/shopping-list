@@ -10,12 +10,14 @@ $(document).ready(function() {
 });
 	function additem() {
 	var item = $(".add-textbox").val();
-	var clone1 = '<li>';
-	var clone2 = '<div class="check-button action-complete"><a href="#"><img class="item-buttons action-complete" src="images/blue-check.png"/></a></div><div class="delete-button action-delete"><a href="#"><img class="item-buttons action-delete" src="images/x.png"/></a></div>';
+	var clone1 = $('<li>';
+	var clone2 = '<div class="check-button action-complete"><a href="#">';
+	var clone3 = '<img class="item-buttons action-complete" src="images/blue-check.png"/></a></div>';
+	var clone4 = '<div class="delete-button action-delete"><a href="#"><img class="item-buttons action-delete" src="images/x.png"/></a></div>');
 	console.log(item);
 	$(".lower-page").show();
 	$("li").show();	
-	$("ol").append(clone1+item+clone2);
+	$("ol").append(clone1+item+clone2+clone3+clone4);
 	$(".add-textbox").val("");
 }
    $("ol.items").on("click", function(event) {
@@ -24,7 +26,7 @@ $(document).ready(function() {
    console.log(t.hasClass("action-complete"));
    if(t.hasClass("action-complete")) {
    		console.log("action-complete");
-   	$(this).parents().find(li).toggleClass("strikethrough");	
+   	$(this).parents().toggleClass("strikethrough");	
    } else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
    		/*$(".action-delete").parents().remove();
