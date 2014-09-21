@@ -14,13 +14,13 @@ $(document).ready(function() {
 	$("ol").append(clone1+item+clone2+clone3+clone4);
 	$(".add-textbox").val("");
 }
-
-	$(".button-text").on("click", additem);
 	$(".add-textbox").on("keypress",function(event){
 	if (event.which == 13) {
 		additem();		
 }
 });
+	$(".button-text").on("click", additem);
+
 
    $("ol.items").on("click", function(event) {
    var t = $(event.target);
