@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(".lower-page").hide();
+	/*$(".lower-page").hide();*/
 	$(".button-text").on("click", additem);
 	$(".add-textbox").on("keypress",function(event){
 	if ( event.which == 13 ) {
@@ -8,13 +8,13 @@ $(document).ready(function() {
 });	
 
 	function additem() {
-	$(".lower-page").show();	
 	var item = $(".add-textbox").val();
 	var clone1 = '<li>';
 	var clone2 = '<div class="check-button action-complete"><a href="#">';
 	var clone3 = '<img class="item-buttons action-complete" src="images/blue-check.png"/></a></div>';
 	var clone4 = '<div class="delete-button action-delete"><a href="#"><img class="item-buttons action-delete" src="images/x.png"/></a></div>';
-	console.log(item);
+	/*console.log(item);*/
+	$(".lower-page").show();
 	$("ol").append(clone1+item+clone2+clone3+clone4);
 	$(".add-textbox").val("");
 }

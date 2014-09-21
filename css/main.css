@@ -72,7 +72,7 @@ ol {
 
 .lower-page {
 	position: absolute;
-	/* display: inline; */
+	display: none;
 	min-width: 92%;
 	/* height: 780px; */
 	border: 2px solid #FF7F50;
