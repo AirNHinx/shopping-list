@@ -7,7 +7,8 @@ $(document).ready(function() {
 }
 });	
 
-	function additem() {	
+	function additem() {
+	$(".lower-page").show();	
 	var item = $(".add-textbox").val();
 	var clone1 = '<li>';
 	var clone2 = '<div class="check-button action-complete"><a href="#">';
@@ -15,7 +16,6 @@ $(document).ready(function() {
 	var clone4 = '<div class="delete-button action-delete"><a href="#"><img class="item-buttons action-delete" src="images/x.png"/></a></div>';
 	console.log(item);
 	$("ol").append(clone1+item+clone2+clone3+clone4);
-	$(".lower-page").show();
 	$(".add-textbox").val("");
 }
 
