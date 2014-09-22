@@ -1,6 +1,7 @@
 $(document).ready(function() {
 	$(".add-textbox").on("keypress", function(event) {
 	if ( event.which == 13 ) {
+		event.preventDefault();
 		additem();		
 		}
 	});
