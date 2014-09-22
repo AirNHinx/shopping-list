@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	/*$(".lower-page").hide();*/
 	$(".add-textbox").on("keypress", function(event) {
 	if ( event.which == 13 ) {
 		additem();		
