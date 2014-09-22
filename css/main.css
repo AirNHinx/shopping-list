@@ -1,6 +1,7 @@
 body {
 	background-image: url("../images/aisle.jpg");
-	/*background-repeat: no-repeat;*/
+	background-repeat: no-repeat;
+	background-color: #A0522D;
 
 }
 
