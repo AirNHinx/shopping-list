@@ -15,7 +15,7 @@ $(document).ready(function() {
 	var clone4 = '<div class="delete-button action-delete"><a href="#"><img class="item-buttons action-delete" src="images/x.png"/></a></div>';
 	$("ol").prepend(clone1+item+clone2+clone3+clone4);
 	$(".lower-page").show();
-	console.log(item);
+	/*console.log(item);*/
 	$(".add-textbox").val("");
 	}
 
