@@ -1,11 +1,11 @@
 $(document).ready(function() {
 	/*$(".lower-page").hide();*/
-	$(".button-text").on("click", additem);
 	$(".add-textbox").on("keypress", function(event){
 	if( event.which == 13 ) {
 		additem();		
-}
-});
+		}
+	});
+	$(".button-text").on("click", additem);
 
 	function additem() {
 	var item = $(".add-textbox").val();
@@ -17,7 +17,7 @@ $(document).ready(function() {
 	$(".lower-page").show();
 	console.log(item);
 	$(".add-textbox").val("");
-}
+	}
 
    $("ol.items").on("click", function(event) {
    var t = $(event.target);
@@ -27,11 +27,11 @@ $(document).ready(function() {
    		console.log("action-complete");
    		/*console.log(this);*/
    	$(t).closest("li").toggleClass("strikethrough");	
-   } else if(t.hasClass("action-delete")) {
+   	} else if(t.hasClass("action-delete")) {
    		console.log("action-delete");
    		$(t).closest("li").remove();
-   }
-});
+   	}
+	});
 
 });
 
