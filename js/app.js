@@ -1,10 +1,11 @@
 $(document).ready(function() {
 	$(".add-textbox").on("keypress", function(event) {
 	if ( event.which == 13 ) {
-		additem();		
+		additem();
+		cleartext();		
 		}
 	});
-	$(".button-text").on("click", additem);
+	$(".button-text").on("click", additem, cleartext);
 
 	function additem() {
 	var item = $(".add-textbox").val();
@@ -15,7 +16,10 @@ $(document).ready(function() {
 	$("ol").prepend(clone1+item+clone2+clone3+clone4);
 	$(".lower-page").show();
 	/*console.log(item);*/
-	$(".add-textbox").val("");
+	}
+
+	function cleartext() {
+	$(".add-textbox").val("");	
 	}
 
    $("ol.items").on("click", function(event) {
