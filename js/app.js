@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	/*$(".lower-page").hide();*/
 	$(".add-textbox").on("keypress", function(event){
-	if( event.which == 13 ) {
+	if ( event.which == 13 ) {
 		additem();		
 		}
 	});
@@ -23,11 +23,11 @@ $(document).ready(function() {
    var t = $(event.target);
    console.log(t);
    console.log(t.hasClass("action-complete"));
-   if(t.hasClass("action-complete")) {
+   if (t.hasClass("action-complete")) {
    		console.log("action-complete");
    		/*console.log(this);*/
    	$(t).closest("li").toggleClass("strikethrough");	
-   	} else if(t.hasClass("action-delete")) {
+   	} else if (t.hasClass("action-delete")) {
    		console.log("action-delete");
    		$(t).closest("li").remove();
    	}
